@@ -1,14 +1,13 @@
-
 {
     "manifest_version": 3,
-    "name": "Chrome Extension Starter",
-    "description": "A Chrome Extension starter kit",
+    "name": "Final Score",
+    "description": "A Chrome Extension Starter-kit",
     "version": "1.0.0",
     "action": {
         "default_icon": {
-            "16": "icon-16.png",
-            "48": "icon-48.png",
-            "128": "icon-128.png"
+            "16": "finalScore.png",
+            "48": "finalScore.png",
+            "128": "finalScore.png"
         },
         "default_popup": "popup.html"
     },
@@ -16,11 +15,10 @@
         "service_worker": "js/backgroundPage.js"
     },
     "icons": {
-        "16": "icon-16.png",
-        "48": "icon-48.png",
-        "128": "icon-128.png"
+        "16": "finalScore.png",
+        "48": "finalScore.png",
+        "128": "finalScore.png"
     },
-    "host_permissions": ["https:\/\/*/*"],
+    "host_permissions": ["https://*/*"],
     "permissions": ["tabs", "activeTab", "notifications", "scripting"]
 }
-
