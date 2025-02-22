@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Final Score",
-    "description": "A Chrome Extension Starter-kit",
+    "description": "A Chrome Extension For Personalized Sports Results",
     "version": "1.0.0",
     "action": {
         "default_icon": {
